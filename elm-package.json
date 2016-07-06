@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "summary": "Capitalize a string.",
+    "repository": "https://github.com/rainteller/elm-capitalize.git",
+    "license": "BSD3",
+    "source-directories": [
+        "."
+    ],
+    "exposed-modules": [
+        "Capitalize"
+    ],
+    "dependencies": {
+        "avh4/elm-spec": "2.0.0 <= v < 3.0.0",
+        "elm-lang/core": "4.0.1 <= v < 5.0.0"
+    },
+    "elm-version": "0.17.0 <= v < 0.18.0"
+}
