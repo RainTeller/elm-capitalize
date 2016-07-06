@@ -1,4 +1,5 @@
-# elm-capitalize [![Build Status](https://travis-ci.org/rainteller/elm-capitalize.svg?branch=1.0.0)](https://travis-ci.org/rainteller/elm-capitalize)
+# elm-capitalize [![Build Status](https://travis-ci.org/rainteller/elm-capitalize.svg?branch=master)](https://travis-ci.org/rainteller/elm-capitalize)
+
 Capitalize a string.
 
 ## Install
