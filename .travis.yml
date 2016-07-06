@@ -1,0 +1,13 @@
+sudo: false
+cache:
+  directories:
+    - elm-stuff/build-artifacts
+language: node_js
+node_js:
+  - "6"
+install:
+  - npm i -g elm@0.17.0
+  - elm package install -y
+before_script:
+  - elm make --yes --output test.js Test.elm
+script: node test.js

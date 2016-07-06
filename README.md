@@ -7,14 +7,17 @@ $ elm package install rainteller/elm-capitalize
 ```
 
 ## Usage
-Capitalize the first word of a sentence.
+Import the package
 ```elm
-toCapital "the cistern contains: the fountain overflows."  
--- "The cistern contains: the fountain overflows."
+import Capitalize
+```
+
+Capitalize only the first word of a sentence.
+```elm
+Capitalize.toCapital "hello world"  -- "Hello world"
 ```
 
 Capitalize each word of a sentence.
 ```elm
-toCapitalAll "the cistern contains: the fountain overflows."  
--- "The Cistern Contains: The Fountain Overflows."
+Capitalize.toCapitalAll "hello world"  -- "Hello World"
 ```

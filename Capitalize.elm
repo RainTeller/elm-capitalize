@@ -8,10 +8,9 @@ module Capitalize exposing (toCapital, toCapitalAll)
 
 import String
 
-{-| Capitalize the first word of a sentence.
+{-| Capitalize only the first word of a sentence.
 
-    toCapital "the cistern contains: the fountain overflows."
-    -- "The cistern contains: the fountain overflows."
+    toCapital "hello world"  -- "Hello world"
 -}
 toCapital : String -> String
 toCapital str =
@@ -19,8 +18,7 @@ toCapital str =
 
 {-| Capitalize each word of a sentence.
 
-    toCapitalAll "the cistern contains: the fountain overflows."
-    -- "The Cistern Contains: The Fountain Overflows."
+    toCapitalAll "hello world"  -- "Hello World"
 -}
 toCapitalAll : String -> String
 toCapitalAll str =
